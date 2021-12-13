@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 5000;
 
 mongoose.connect(db,
     { useUnifiedTopology: true,
-        useNewUrlParser:true 
+       // useNewUrlParser:true 
     }).then(() => {
          console.log('Connected to MongoDB successfully')
          }) .catch((err)=>{
